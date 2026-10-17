@@ -1,0 +1,144 @@
+# Track metadata. The site builder and tools/check_track.py read this file.
+track = "cp"
+language = "python"
+name = "Competitive programming in Python"
+sources = "solutions/ch*.py"
+test = "python -m pytest -q"
+exercises = 146
+
+[[parts]]
+n = 1
+name = "Language basics"
+chapters = [1, 2, 3, 4]
+
+[[parts]]
+n = 2
+name = "Built-in data structures"
+chapters = [5, 6, 7]
+
+[[parts]]
+n = 3
+name = "Functions and objects"
+chapters = [8, 9]
+
+[[parts]]
+n = 4
+name = "Standard library toolbox"
+chapters = [10, 11, 12]
+
+[[parts]]
+n = 5
+name = "Contest essentials"
+chapters = [13, 14, 15, 16]
+
+[[chapters]]
+n = 1
+title = "Input and Output"
+short = "Fast I/O"
+focus = "Read the judge's input and print exactly what it expects. Every exercise takes text in and returns text out."
+file = "solutions/ch01_io.py"
+
+[[chapters]]
+n = 2
+title = "Numbers and Arithmetic"
+short = "Numbers"
+focus = "Floor division, big integers, modular arithmetic and the float traps that cost contest points."
+file = "solutions/ch02_numbers.py"
+
+[[chapters]]
+n = 3
+title = "Strings"
+short = "Strings"
+focus = "Slicing, character codes and building strings without quadratic copying."
+file = "solutions/ch03_strings.py"
+
+[[chapters]]
+n = 4
+title = "Control Flow and Loops"
+short = "Control flow"
+focus = "Loops, ranges and branching, including for-else and match."
+file = "solutions/ch04_control_flow.py"
+
+[[chapters]]
+n = 5
+title = "Lists"
+short = "Lists"
+focus = "2D grids, slicing, prefix sums and the copying traps that break grid code."
+file = "solutions/ch05_lists.py"
+
+[[chapters]]
+n = 6
+title = "Tuples, Sets and Dictionaries"
+short = "Sets and dicts"
+focus = "Hashing structures that turn searches into O(1) lookups."
+file = "solutions/ch06_tuples_sets_dicts.py"
+
+[[chapters]]
+n = 7
+title = "Comprehensions and Built-ins"
+short = "Comprehensions"
+focus = "Write loops as expressions and let built-in functions do the work."
+file = "solutions/ch07_comprehensions_builtins.py"
+
+[[chapters]]
+n = 8
+title = "Functions and Recursion"
+short = "Functions"
+focus = "Arguments, closures, decorators, memoization and Python's recursion limit."
+file = "solutions/ch08_functions.py"
+
+[[chapters]]
+n = 9
+title = "Classes and Objects"
+short = "Classes"
+focus = "Just enough object-oriented Python for custom ordering, hashing and records."
+file = "solutions/ch09_classes.py"
+
+[[chapters]]
+n = 10
+title = "Sorting and Binary Search"
+short = "Sorting and bisect"
+focus = "Sort by any key, then binary-search both lists and answers."
+file = "solutions/ch10_sorting_bisect.py"
+
+[[chapters]]
+n = 11
+title = "collections and heapq"
+short = "collections, heapq"
+focus = "Counter, defaultdict, deque, OrderedDict and heaps: the contest toolkit."
+file = "solutions/ch11_collections_heapq.py"
+
+[[chapters]]
+n = 12
+title = "itertools and functools"
+short = "itertools"
+focus = "Generate permutations, combinations and products for safe brute force."
+file = "solutions/ch12_itertools_functools.py"
+
+[[chapters]]
+n = 13
+title = "Bit Manipulation"
+short = "Bits"
+focus = "Masks, XOR tricks and enumerating every subset."
+file = "solutions/ch13_bits.py"
+
+[[chapters]]
+n = 14
+title = "Math and Number Theory"
+short = "Number theory"
+focus = "GCD, primes, divisors and combinations modulo a prime."
+file = "solutions/ch14_number_theory.py"
+
+[[chapters]]
+n = 15
+title = "Writing Fast Python"
+short = "Speed"
+focus = "Estimate the cost first, then pick the Python idiom that fits the time limit."
+file = "solutions/ch15_fast_python.py"
+
+[[chapters]]
+n = 16
+title = "Contest Patterns"
+short = "Patterns"
+focus = "Two pointers, sliding windows, prefix sums, grids and greedy choices."
+file = "solutions/ch16_patterns.py"
