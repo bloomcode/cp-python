@@ -1,6 +1,10 @@
 # Competitive programming in Python
 
-<!-- progress:start -->[![progress](https://img.shields.io/badge/progress-0%2F146-lightgrey)](PROGRESS.md)<!-- progress:end -->
+<!-- progress:start -->
+
+[![progress](https://img.shields.io/badge/progress-0%2F164-lightgrey)](PROGRESS.md)
+
+<!-- progress:end -->
 
 164 exercises in 19 chapters, for engineers preparing for coding interviews and contests. Every exercise is a stub that raises `NotImplementedError` and has its own test. Write the code, make the test pass, move on.
 
