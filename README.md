@@ -2,7 +2,7 @@
 
 <!-- progress:start -->[![progress](https://img.shields.io/badge/progress-0%2F146-lightgrey)](PROGRESS.md)<!-- progress:end -->
 
-146 exercises in 16 chapters, for engineers preparing for coding interviews and contests. Every exercise is a stub that raises `NotImplementedError` and has its own test. Write the code, make the test pass, move on.
+164 exercises in 19 chapters, for engineers preparing for coding interviews and contests. Every exercise is a stub that raises `NotImplementedError` and has its own test. Write the code, make the test pass, move on.
 
 The workbook explains each exercise and the answer key has a reference solution: [workbook](https://bloomcode.github.io/cp/python/workbook.html) · [answer key](https://bloomcode.github.io/cp/python/answer-key.html).
 
@@ -62,3 +62,4 @@ If a file you have worked on conflicts, keep your version of your code (`git che
 | Functions and objects | 8 Functions · 9 Classes |
 | Standard library toolbox | 10 Sorting and bisect · 11 collections, heapq · 12 itertools |
 | Contest essentials | 13 Bits · 14 Number theory · 15 Speed · 16 Patterns |
+| Beyond the contest | 17 Errors · 18 Files · 19 Concurrency |
